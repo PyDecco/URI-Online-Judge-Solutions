@@ -1,6 +1,6 @@
-var A = parsesInt(line.shift());
+var A = parseInt(lines.shift());
 
-var B = parsesInt(line.shift());
+var B = parseInt(lines.shift());
 
 PROD = A*B;
 
